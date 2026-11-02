@@ -1,0 +1,12 @@
+Task 2: Shape modeling with circles
+ENG
+The user must be able to place circles on the screen using mouse clicks (by selecting the center point
+followed by the radius). A tube-like shape must be generated using the circles in the order they were
+placed; one possible method for this is to create an "envelope" around the circles, as discussed in the
+lecture. To achieve this, we must determine where the shape should touch the circles and identify the
+tangent vectors at those points; then, using this information, we can calculate a local Hermite curve
+for each pair of points and tangent vectors.
+Another option is to use a Ball-Bézier or Disk-Bézier curve, where the placed circles function as "control
+circles." The curve itself is a Bézier curve defined by the circle centers as control points, but with a
+thickness calculated from the radii in a manner similar to the curve itself.
+Ideally, the team should implement both methods (teams of one need only implement one).
