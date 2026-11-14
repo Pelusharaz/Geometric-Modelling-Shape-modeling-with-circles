@@ -1,0 +1,40 @@
+# CMake and native build output
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+*.exe
+*.dll
+*.obj
+*.o
+*.pdb
+*.ilk
+
+# Local editor settings (project kit definitions remain shareable)
+.vscode/settings.json
+**/.vscode/settings.json
+.vs/
+*.user
+*.suo
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+*.egg-info/
+
+# Operating system files
+.DS_Store
+Thumbs.db

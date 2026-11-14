@@ -1,0 +1,15 @@
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+*.user
+*.exe
+*.dll
+*.obj
+*.pdb
