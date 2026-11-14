@@ -10,6 +10,10 @@ Testing/
 compile_commands.json
 *.exe
 *.dll
+*.lib
+*.a
+*.so
+*.dylib
 *.obj
 *.o
 *.pdb
@@ -21,16 +25,20 @@ compile_commands.json
 .vs/
 *.user
 *.suo
+.idea/
 
 # Python caches and virtual environments
 __pycache__/
 *.py[cod]
-.venv/
-venv/
+.venv*/
+venv*/
+.tox/
+.nox/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 .coverage
+.coverage.*
 htmlcov/
 dist/
 *.egg-info/
