@@ -36,7 +36,8 @@ For a manual MinGW build, open the Qt MinGW terminal and replace `6.x.x` with th
 
 ```powershell
 cd C:\path\to\CircleShapeModellerQt
-cmake -S . -B build-mingw -G "MinGW Makefiles" -DBUILD_TESTING=ON -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH="C:/Qt/6.x.x/mingw_64"
+cmake -S . -B build-mingw -G "MinGW Makefiles" -DBUILD_TESTING=ON -DCMAKE_BUILD_TYPE=Release 
+cmake -S . -B build-mingw -DCMAKE_PREFIX_PATH="C:/Qt/6.x.x/mingw_64"
 cmake --build build-mingw --parallel
 ```
 
